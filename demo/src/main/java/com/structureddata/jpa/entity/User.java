@@ -1,4 +1,3 @@
-// User.java
 package com.structureddata.jpa.entity;
 
 import javax.persistence.*;
