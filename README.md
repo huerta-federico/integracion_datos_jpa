@@ -4,7 +4,9 @@ Itinerario 2: Programación Integrativa
 
 [APEB2-30%] Laboratorio virtual: Manejo de datos estructurados
 
+
 Autor: Federico Huerta
+
 
 Bibliografía:
 
