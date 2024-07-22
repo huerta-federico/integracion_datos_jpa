@@ -4,6 +4,7 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 import java.util.Objects;
 
+// Clase no utilizada por el momento.
 @Embeddable
 public class VideoCategoryId implements Serializable {
     private int videoId;
