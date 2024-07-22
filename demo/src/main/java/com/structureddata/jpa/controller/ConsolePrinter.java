@@ -1,4 +1,4 @@
-package com.datosestructuradosjpa.controller;
+package com.structureddata.jpa.controller;
 
 import java.util.List;
 

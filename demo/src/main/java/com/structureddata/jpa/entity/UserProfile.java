@@ -1,5 +1,5 @@
 // UserProfile.java
-package com.datosestructuradosjpa.entity;
+package com.structureddata.jpa.entity;
 
 import javax.persistence.*;
 

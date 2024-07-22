@@ -1,5 +1,5 @@
 // User.java
-package com.datosestructuradosjpa.entity;
+package com.structureddata.jpa.entity;
 
 import javax.persistence.*;
 import java.util.List;

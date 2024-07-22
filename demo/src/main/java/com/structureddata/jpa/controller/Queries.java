@@ -1,8 +1,10 @@
-package com.datosestructuradosjpa.controller;
+package com.structureddata.jpa.controller;
 
 import java.util.List;
-import com.datosestructuradosjpa.entity.JpaUtil;
+
 import javax.persistence.EntityManager;
+
+import com.structureddata.jpa.entity.JpaUtil;
 
 public class Queries {
 

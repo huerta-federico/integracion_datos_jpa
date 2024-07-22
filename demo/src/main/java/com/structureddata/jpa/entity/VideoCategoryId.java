@@ -1,4 +1,4 @@
-package com.datosestructuradosjpa.entity;
+package com.structureddata.jpa.entity;
 
 import javax.persistence.Embeddable;
 import java.io.Serializable;

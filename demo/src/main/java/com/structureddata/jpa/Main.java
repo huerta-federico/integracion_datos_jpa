@@ -1,5 +1,5 @@
-package com.datosestructuradosjpa;
-import com.datosestructuradosjpa.controller.ConsolePrinter;
+package com.structureddata.jpa;
+import com.structureddata.jpa.controller.ConsolePrinter;
 
 public class Main {
     public static void main(String[] args) {
