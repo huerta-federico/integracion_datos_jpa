@@ -4,8 +4,10 @@ import java.util.List;
 
 public class ConsolePrinter {
 
+    // Crea el objeto Query que contiene la lógica de las consultas
     private Queries Query = new Queries();
 
+    // Cada función ejecuta e imprime los resultados de cada consulta.
     public void printAllResults() {
         printAllUsers();
         printVideoTitlesByUser();
@@ -44,7 +46,8 @@ public class ConsolePrinter {
 
     private void printUserProfileForEducationVideos() {
         List<Object[]> results = Query.getUserProfileForEducationVideos();
-        System.out.println("\n4. ¿Cuál es la biografía y foto de perfil de cada usuario que ha publicado videos de la categoría 'Educación'?\n");
+        System.out.println(
+                "\n4. ¿Cuál es la biografía y foto de perfil de cada usuario que ha publicado videos de la categoría 'Educación'?\n");
         for (Object[] row : results) {
             System.out.println("Bio: " + row[0] + "\nProfile Picture: " + row[1] + "\n");
         }
@@ -53,7 +56,8 @@ public class ConsolePrinter {
 
     private void printDetailedVideoInfo() {
         List<Object[]> results = Query.getDetailedVideoInfo();
-        System.out.println("\n5. ¿Cuáles son los títulos y descripciones de los videos, los nombres de los usuarios que los publicaron, las biografías de estos usuarios, y las categorías a las que pertenecen los videos?\n");
+        System.out.println(
+                "\n5. ¿Cuáles son los títulos y descripciones de los videos, los nombres de los usuarios que los publicaron, las biografías de estos usuarios, y las categorías a las que pertenecen los videos?\n");
         for (Object[] row : results) {
             System.out.println("Category: " + row[0] + "\nVideo Title: " + row[1] +
                     "\nDescription: " + row[2] + "\nUser: " + row[3] + "\nBio: " + row[4] + "\n");
